@@ -20,8 +20,6 @@ And add these secrets to your *secrets.yaml*
     husqvarna_username: your@mail.com
     husqvarna_password: yourpassword
 
-# Manual Installation Instructions
-Clone or download the zip of this repository and place the files into the <ha-config>/custom_components/automower directory. 
 
 # Usage
 This component will create a vacuum entity and a device_tracker entity for your automowers. The vacuum entity can be used to control the automower and view it's current status. Calling the vacuum.return_to_base service will park the automower until further notice, vacuum.stop will stop the mower in it's current location, and calling vacuum.start_pause service will resume your current schedule. 
