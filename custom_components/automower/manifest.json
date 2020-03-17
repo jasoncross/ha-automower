@@ -3,6 +3,6 @@
   "name": "Husqvarna Automower",
   "documentation": "https://github.com/MZorzy/ha-automower/",
   "dependencies": [],
-  "codeowners": ["@walthowd"],
+  "codeowners": ["@walthowd","@MZorzy"],
   "requirements": ["pyhusmow==0.1.1"]
 }
