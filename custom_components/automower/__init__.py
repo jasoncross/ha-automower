@@ -146,7 +146,7 @@ ERROR_MESSAGES = {
 	74: 'Alarm! Outside geofence',
 	75: 'Connection changed',
 	76: 'Connection NOT changed',
-	77: 'Com board not available,
+	77: 'Com board not available',
 	78: 'Slipped - Mower has Slipped.Situation not solved with moving pattern',
 	79: 'Invalid battery combination - Invalid combination of different battery types.',
 	80: 'Cutting system imbalance: Warning',
