@@ -51,12 +51,12 @@ STATUSES = {
     STATUS_OK_CHARGING:             { 'icon': 'mdi:power-plug',     'message': 'Charging' },
     STATUS_OK_CUTTING:              { 'icon': DEFAULT_ICON,         'message': 'Cutting' },
     STATUS_OK_CUTTING_MANUAL:       { 'icon': DEFAULT_ICON,         'message': 'Cutting (manual timer override)' },
-    STATUS_OK_LEAVING:              { 'icon': DEFAULT_ICON,         'message': 'Leaving base' },
+    STATUS_OK_LEAVING:              { 'icon': DEFAULT_ICON,         'message': 'Leaving charging station' },
     STATUS_PAUSED:                  { 'icon': 'mdi:pause',          'message': 'Paused' },
     STATUS_PARKED_TIMER:            { 'icon': 'mdi:timetable',      'message': 'Parked due to timer' },
     STATUS_PARKED_AUTOTIMER:        { 'icon': 'mdi:timetable',      'message': 'Parked due to weather timer' },
     STATUS_PARKED_PARKED_SELECTED:  { 'icon': 'mdi:sleep',          'message': 'Parked manually' },
-    STATUS_OK_SEARCHING:            { 'icon': 'mdi:magnify',        'message': 'Searching base' },
+    STATUS_OK_SEARCHING:            { 'icon': 'mdi:magnify',        'message': 'Going to charging station' },
     STATUS_EXECUTING_START:         { 'icon': 'mdi:dots-horizontal','message': 'Starting...' },
     STATUS_EXECUTING_STOP:          { 'icon': 'mdi:dots-horizontal','message': 'Stopping...' },
     STATUS_WAIT_POWER_UP:           { 'icon': 'mdi:dots-horizontal','message': 'Powering up...' },
@@ -167,7 +167,7 @@ MODELS = {
     'E': 'Automower 420',
     'G': 'Automower 430X',
     'H': 'Automower 450X',
-    'L': 'Automower 315'
+    'L': 'Automower 315/X'
 }
 
 IGNORED_API_STATE_ATTRIBUTES = [
