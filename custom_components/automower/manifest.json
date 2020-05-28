@@ -3,6 +3,6 @@
   "name": "automower",
   "documentation": "https://github.com/jasoncross/ha-automower/",
   "dependencies": [],
-  "codeowners": ["@walthowd","@jasoncross"],
+  "codeowners": ["@walthowd","@MZorzy","@jasoncross"],
   "requirements": ["pyhusmow==0.1.1"]
 }
