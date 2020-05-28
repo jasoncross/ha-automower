@@ -1,8 +1,8 @@
 {
   "domain": "automower",
   "name": "automower",
-  "documentation": "https://github.com/walthowd/ha-automower/",
+  "documentation": "https://github.com/jasoncross/ha-automower/",
   "dependencies": [],
-  "codeowners": ["@walthowd"],
+  "codeowners": ["@walthowd","@jasoncross"],
   "requirements": ["pyhusmow==0.1.1"]
 }
